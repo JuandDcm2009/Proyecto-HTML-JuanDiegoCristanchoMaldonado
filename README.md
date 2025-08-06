@@ -24,4 +24,4 @@ Product Owner: Juan.
 ## Cómo correr esto
 
 1. Cloná el repo:
-   git clone https://github.com/TuUsuario/TuRepo.git
+   git clone https://github.com/JuandDcm2009/Proyecto-HTML-JuanDiegoCristanchoMaldonado
