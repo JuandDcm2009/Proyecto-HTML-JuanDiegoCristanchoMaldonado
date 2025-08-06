@@ -7,9 +7,9 @@ Este proyecto muestra información de varias escuderías de Fórmula 1 usando HT
 
 ## 🚀 Equipo Scrum:
 
-Developers: Juan, Juan.
-Scrum Master: Juan.
-Product Owner: Juan.
+- Developers: Juan, Juan.
+- Scrum Master: Juan.
+- Product Owner: Juan.
 
 ---
 ## 🛠️ Tecnologías Usadas
