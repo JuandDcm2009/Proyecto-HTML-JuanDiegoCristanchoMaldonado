@@ -1,0 +1,201 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    background-color: black;
+    animation: fadeIn 1s ease;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.filtro {
+    position: fixed;
+    background: radial-gradient(circle,rgba(238, 174, 202, 0) 74%, rgba(0, 0, 0, 1) 100%);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.menu-container {
+    font-family: Arial, Helvetica, sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 690px;
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-section img {
+    width: 55%;
+}
+
+.top-section h2 {
+    text-shadow: -2px 2px 3px black;
+    font-size: 0.9rem;
+    color: white;
+    font-weight: normal;
+    display: flex;
+    gap: 20px;
+}
+
+.top-section h2 a {
+    color: rgb(255, 0, 0);
+    text-shadow: -1px 1px 3px black;
+}
+
+.buttons-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.google-button {
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 0px 5px;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.facebook-button {
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: rgb(0, 153, 255);
+    padding: 10px 5px;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.google-button:hover {
+    cursor: pointer;
+}
+
+.facebook-button:hover {
+    cursor: pointer;
+}
+
+.buttons-container img {
+    width: 20px;
+    height: 20px;
+}
+
+.bottom-section {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-section form {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    gap: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.bottom-section form label {
+    text-shadow: -2px 2px 3px rgba(0, 0, 0, 0.705);
+}
+
+input {
+    border-radius: 5px;
+    height: 30px;
+    border-style: none;
+    color: black;
+}
+
+input:focus {
+    color: black;
+    border: rgb(0, 0, 0) 2px solid;
+    outline: none;
+}
+
+.options-container {
+    margin-top: 20px;
+    display: flex;
+    color: white;
+    font-size: 0.8rem;
+    gap: 30px;
+}
+
+.options-container a {
+    color: red;
+    text-shadow: -1px 1px 3px black;
+    display: flex;
+    align-self: center;
+}
+
+.item {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+.button-principal {
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
